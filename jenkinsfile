@@ -4,7 +4,7 @@ pipeline{
 		notifyEmail ="punit.sharma@nagarro.com"
 	}
     tools{
-        maven 'MAVEN_HOME'
+        maven 'm2_home'
     }
     triggers {
     	cron('0 06 * * *')
